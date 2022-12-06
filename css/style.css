@@ -1,0 +1,262 @@
+header .carousel-inner .item {
+  height: 100vh;
+  min-height: 300px;
+}
+
+header .carousel-inner .item img {
+  width: 100%;
+}
+
+.carousel-caption {
+  bottom: 350px;
+}
+
+.carousel-caption h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.carousel-caption button {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 35px;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 27px;
+  font-size: 16px;
+  padding: 12px 50px;
+}
+
+/* top courses */
+.star span {
+  color: black;
+}
+
+.star {
+  color: #d0d23c;
+  list-style-type: none;
+  display: flex;
+}
+
+.fa-solid {
+  display: inline-block;
+  font-size: 20px;
+  padding-top: 11px;
+}
+
+.top-courses-title {
+  text-align: center;
+  justify-content: center;
+}
+
+.top-courses-title h2 {
+  padding-top: 30px;
+}
+
+.top-courses-title p {
+  padding-bottom: 25px;
+}
+
+.top-courses-title a {
+  margin-right: 20px;
+  background-color: #23ad96;
+  color: #fff;
+  padding: 15px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.view-all-courses a {
+  background-color: #23ad96;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  text-align: center;
+  padding: 20px 50px;
+}
+
+.view-all-courses {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.card img:hover{
+  opacity: 0.5;
+}
+
+/* register section  */
+.bg-img {
+  background-image: url(../img/registration-2.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1.0;
+}
+
+.register-wrap {
+  text-align: center;
+  padding-top: 80px;
+  color: #fff;
+}
+
+.register-wrap h1 {
+  font-size: 70px;
+}
+
+.wrapper {
+  border-radius: 50%;
+  border: 2px solid #23ad96;
+  background-color: #23ad9652;
+  height: 100px;
+  line-height: normal;
+  padding-top: 35px;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.wrapper span {
+  color: #fff;
+}
+
+.countdown {
+  display: flex;
+  text-align: center;
+  margin-top: 70px;
+  padding: 10px 30px;
+  padding-right: 20px;
+}
+
+.form-heading h4 {
+  padding: 10px 0px;
+}
+
+.form-heading h5 {
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+.form-field {
+  padding-top: 10px;
+}
+
+.sign-up-form {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 0px 30px;
+  position: relative;
+  max-width: 480px;
+}
+
+.sign-up-form title {
+  color: #333;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.sign-up-form input {
+  background-color: transparent;
+  border: 1px solid #dbe1e5;
+  border-radius: 4px;
+  color: #696969;
+  font-weight: 300;
+  height: 55px;
+  margin-bottom: 20px;
+  padding-left: 18px;
+  width: 100%;
+}
+
+.sign-up-form .btn {
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 400;
+  height: 50px;
+  line-height: 30px;
+  background-color: #23ad96;
+  width: 100%;
+}
+
+/*Upcoming events section  */
+
+.main-event {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  display: flex;
+  padding: 30px 15px 30px 15px;
+}
+
+.evwnt-date {
+  background-color: #23ad96;
+  font-size: 18px;
+  padding: 28px 30px 0px 30px;
+  text-align: center;
+}
+.evwnt-date:hover{
+  background-color: #09dab7;
+}
+
+.event-body {
+  padding-left: 20px;
+}
+.event-body h4{
+  padding-left: 30px;
+}
+
+.main-title h3 {
+  padding-top: 50px;
+}
+.See-all-Events a{
+  background-color: #23ad96;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  text-align: center;
+  padding: 20px 50px;
+}
+.See-all-Events{
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+ a:hover{
+ background-color: #044b3f;
+}
+/* <!-- Blog section --> */
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .clock-item {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .clock-item {
+    margin: 0px 30px 30px 30px;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .navbar-nav {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .carousel-caption {
+    bottom: 165px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 10px;
+  }
+
+  .carousel-caption a {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+}

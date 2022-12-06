@@ -1,0 +1,25 @@
+1.header section
+{
+1.1 nav
+-img with text(left)
+-5 dropdown , 1 link and search icon(right)
+}
+
+2.slider section
+{
+2.1  slider with 4 imges
+- text with button(every slider has different text)
+}
+
+3.top courses section
+{
+    3.1 tiltle 
+    3.2 text
+    3.3 buttons (3)
+    3.4 cards(8)
+    3.5 button(view all courses)
+}
+
+4.registration section
+
+pass-angular@2022
